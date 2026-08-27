@@ -1,5 +1,7 @@
-### mivia-ai-sdk
+### [mivia-agent](https://github.com/MiviaLabs/mivia-agent)
 
-[github.com/MiviaLabs/mivia-ai-sdk](https://github.com/MiviaLabs/mivia-ai-sdk)
+A terminal coding agent that actually ships code. It reads, searches, and edits your repo, runs your test suite, and drives multi-step workflows in an isolated worktree with a durable run record for every step. Local-first and provider-agnostic: your files stay on your machine, and you bring the model. [See it in action](https://github.com/MiviaLabs/mivia-agent#readme).
 
-A Go SDK for building reliable AI agents and multi-agent workflows out of composable, single-concern blocks. Standard library only, with signed messaging, durable task execution, and MCP/A2A protocol support built in.
+### [mivia-ai-sdk](https://github.com/MiviaLabs/mivia-ai-sdk)
+
+A Go SDK for building reliable AI agents and multi-agent workflows out of composable, single-concern blocks. Ed25519-signed envelopes, durable task execution with fenced takeover, deterministic step graphs, and native MCP/A2A protocol support. Standard library only, no dependency surface to audit.
