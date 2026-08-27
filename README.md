@@ -19,3 +19,12 @@ A terminal coding agent that actually ships code. It reads, searches, and edits 
 ### [mivia-ai-sdk](https://github.com/MiviaLabs/mivia-ai-sdk)
 
 A Go SDK for building reliable AI agents and multi-agent workflows out of composable, single-concern blocks. Ed25519-signed envelopes, durable task execution with fenced takeover, deterministic step graphs, and native MCP/A2A protocol support. Standard library only, no dependency surface to audit.
+
+<sub>
+
+**Node.js projects:**
+[mivialabs-nestjs-boilerplate](https://github.com/MiviaLabs/mivialabs-nestjs-boilerplate) — NestJS API boilerplate with event sourcing: PostgreSQL, Redis, RabbitMQ, MinIO.
+[flip-shop-task](https://github.com/mac-lisowski/flip-shop-task) — Two dockerized microservices, two MongoDB instances, Redis, and NATS for inter-service messaging.
+[mysmarthotel-task](https://github.com/mac-lisowski/mysmarthotel-task) — NestJS API and a background worker talking over RabbitMQ, backed by MongoDB.
+
+</sub>
