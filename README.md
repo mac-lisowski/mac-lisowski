@@ -20,11 +20,7 @@ A terminal coding agent that actually ships code. It reads, searches, and edits 
 
 A Go SDK for building reliable AI agents and multi-agent workflows out of composable, single-concern blocks. Ed25519-signed envelopes, durable task execution with fenced takeover, deterministic step graphs, and native MCP/A2A protocol support. Standard library only, no dependency surface to audit.
 
-<sub>
-
-**Node.js projects:**
-[mivialabs-nestjs-boilerplate](https://github.com/MiviaLabs/mivialabs-nestjs-boilerplate) — NestJS API boilerplate with event sourcing: PostgreSQL, Redis, RabbitMQ, MinIO.
-[flip-shop-task](https://github.com/mac-lisowski/flip-shop-task) — Two dockerized microservices, two MongoDB instances, Redis, and NATS for inter-service messaging.
-[mysmarthotel-task](https://github.com/mac-lisowski/mysmarthotel-task) — NestJS API and a background worker talking over RabbitMQ, backed by MongoDB.
-
-</sub>
+<sub><b>Node.js projects:</b><br>
+<a href="https://github.com/MiviaLabs/mivialabs-nestjs-boilerplate">mivialabs-nestjs-boilerplate</a> — NestJS API boilerplate with event sourcing: PostgreSQL, Redis, RabbitMQ, MinIO.<br>
+<a href="https://github.com/mac-lisowski/flip-shop-task">flip-shop-task</a> — Two dockerized microservices, two MongoDB instances, Redis, and NATS for inter-service messaging.<br>
+<a href="https://github.com/mac-lisowski/mysmarthotel-task">mysmarthotel-task</a> — NestJS API and a background worker talking over RabbitMQ, backed by MongoDB.</sub>
