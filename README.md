@@ -1,6 +1,9 @@
 ### [mivia-agent](https://github.com/MiviaLabs/mivia-agent)
 
-A terminal coding agent that actually ships code. It reads, searches, and edits your repo, runs your test suite, and drives multi-step workflows in an isolated worktree with a durable run record for every step. Local-first and provider-agnostic: your files stay on your machine, and you bring the model. [See it in action](https://github.com/MiviaLabs/mivia-agent#readme).
+A terminal coding agent that actually ships code. It reads, searches, and edits your repo, runs your test suite, and drives multi-step workflows in an isolated worktree with a durable run record for every step. Local-first and provider-agnostic: your files stay on your machine, and you bring the model.
+
+<img src="https://raw.githubusercontent.com/MiviaLabs/mivia-agent/dev/docs/mivia-agent-showcase.gif" alt="mivia-agent showcase" width="100%">
+
 
 ### [mivia-ai-sdk](https://github.com/MiviaLabs/mivia-ai-sdk)
 
