@@ -18,11 +18,7 @@ Lately I've also been deep in AI-native engineering: coding agents, multi-agent 
 
 ### [node-monorepo-boilerplate](https://github.com/MiviaLabs/node-monorepo-boilerplate)
 
-Production-oriented Nx + pnpm monorepo starter. NestJS API with CQRS, multi-tenant guards, and a transactional outbox that publishes to Kafka (dead-letter queue + replay included), Next.js web and admin apps, an Expo mobile app, and 22 shared packages: auth, encryption, queues, storage, OPA policies, observability. Full local stack on Docker Compose (PostgreSQL, Redis, Kafka, MinIO, MailHog) and a real test pyramid: Jest units, Testcontainers e2e, Playwright. Private for now, going public soon.
-
-### [mivialabs-nestjs-boilerplate](https://github.com/MiviaLabs/mivialabs-nestjs-boilerplate)
-
-NestJS API boilerplate built around event sourcing: PostgreSQL, Redis, RabbitMQ, MinIO, and Swagger docs out of the box.
+Production-oriented Nx + pnpm monorepo starter. NestJS API with CQRS, multi-tenant guards, and a transactional outbox that publishes to Kafka (dead-letter queue + replay included), Next.js web and admin apps, an Expo mobile app, and 22 shared packages: auth, encryption, queues, storage, OPA policies, observability. Full local stack on Docker Compose (PostgreSQL, Redis, Kafka, MinIO, MailHog) and a real test pyramid: Jest units, Testcontainers e2e, Playwright.
 
 ### [flip-shop-task](https://github.com/mac-lisowski/flip-shop-task)
 
