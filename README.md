@@ -10,15 +10,19 @@ I'm a Node.js & TypeScript engineer focused on backends and distributed systems 
 
 Day to day that means the Node.js ecosystem: NestJS services with CQRS and event sourcing, PostgreSQL and MongoDB, Redis for caching and rate limiting, RabbitMQ / Kafka / NATS for messaging, and test suites that actually run in CI. I care about tenant isolation, typed error handling, and event-driven flows you can replay when things go wrong.
 
-Lately I've also been deep in AI-native engineering — coding agents, multi-agent systems, agent harnesses, and the verification layer that makes AI reliable enough for real engineering work, not demos. Still close to the code either way.
+Lately I've also been deep in AI-native engineering: coding agents, multi-agent systems, agent harnesses, and the verification layer that makes AI reliable enough for real engineering work, not demos. Still close to the code either way.
 
 ---
 
 ## 🟢 Node.js projects
 
+### [node-monorepo-boilerplate](https://github.com/MiviaLabs/node-monorepo-boilerplate)
+
+Production-oriented Nx + pnpm monorepo starter. NestJS API with CQRS, multi-tenant guards, and a transactional outbox that publishes to Kafka (dead-letter queue + replay included), Next.js web and admin apps, an Expo mobile app, and 22 shared packages: auth, encryption, queues, storage, OPA policies, observability. Full local stack on Docker Compose (PostgreSQL, Redis, Kafka, MinIO, MailHog) and a real test pyramid: Jest units, Testcontainers e2e, Playwright. Private for now, going public soon.
+
 ### [mivialabs-nestjs-boilerplate](https://github.com/MiviaLabs/mivialabs-nestjs-boilerplate)
 
-NestJS API boilerplate built around event sourcing — PostgreSQL, Redis, RabbitMQ, MinIO, and Swagger docs out of the box.
+NestJS API boilerplate built around event sourcing: PostgreSQL, Redis, RabbitMQ, MinIO, and Swagger docs out of the box.
 
 ### [flip-shop-task](https://github.com/mac-lisowski/flip-shop-task)
 
