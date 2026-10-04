@@ -13,8 +13,6 @@ I'm a Node.js & TypeScript engineer focused on backends and distributed systems 
 
 Day to day that's the Node.js ecosystem: NestJS services with CQRS and event sourcing, PostgreSQL and MongoDB, Redis for caching and rate limiting, RabbitMQ / Kafka / NATS for messaging, and test suites that run in CI. I care about tenant isolation, typed error handling, and event-driven flows you can replay when things go wrong.
 
-Lately I've been building Mivia — a platform where teams run AI agents: agents pick up real tasks, work in their own workspaces, and ask before anything consequential, so every run and approval stays visible to the team. Still close to the code either way.
-
 ---
 
 ## 🟢 Node.js projects
@@ -22,21 +20,3 @@ Lately I've been building Mivia — a platform where teams run AI agents: agents
 ### [node-monorepo-boilerplate](https://github.com/MiviaLabs/node-monorepo-boilerplate)
 
 Production-oriented Nx + pnpm monorepo starter. The NestJS API ships with CQRS, multi-tenant guards, and a transactional outbox that publishes to Kafka — dead-letter queue and replay included. Around it: Next.js web and admin apps, an Expo mobile app, and 22 shared packages covering auth, encryption, queues, storage, OPA policies, and observability. Full local stack on Docker Compose (PostgreSQL, Redis, Kafka, MinIO, MailHog), and a real test pyramid: Jest units, Testcontainers e2e, Playwright.
-
-## 🤖 AI engineering projects
-
-### [mivia-agent](https://github.com/MiviaLabs/mivia-agent)
-
-A terminal coding agent that actually ships code. It reads, searches, and edits your repo, runs your test suite, and drives multi-step workflows in an isolated worktree with a durable run record for every step. Local-first and provider-agnostic: your files stay on your machine, and you bring the model.
-
-<img src="https://raw.githubusercontent.com/MiviaLabs/mivia-agent/dev/docs/mivia-agent-showcase.gif" alt="mivia-agent showcase" width="100%">
-
-### [mivia-ai-sdk](https://github.com/MiviaLabs/mivia-ai-sdk)
-
-A Go SDK for building reliable AI agents and multi-agent workflows out of composable, single-concern blocks. Ed25519-signed envelopes, durable task execution with fenced takeover, deterministic step graphs, and native MCP/A2A protocol support. Standard library only, no dependency surface to audit.
-
----
-
-## 🚀 What I'm building now
-
-[Mivia](https://mivia.app) — where teams run AI agents that do real work. Come build with us.
